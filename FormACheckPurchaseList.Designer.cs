@@ -54,9 +54,9 @@ namespace FinalProject
             this.label2.AutoEllipsis = true;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(19, 39);
+            this.label2.Location = new System.Drawing.Point(17, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 20);
+            this.label2.Size = new System.Drawing.Size(48, 15);
             this.label2.TabIndex = 10;
             this.label2.Text = "Search:";
             // 
@@ -66,9 +66,10 @@ namespace FinalProject
             this.btnShow.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnShow.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnShow.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnShow.Location = new System.Drawing.Point(728, 47);
+            this.btnShow.Location = new System.Drawing.Point(637, 35);
+            this.btnShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(94, 29);
+            this.btnShow.Size = new System.Drawing.Size(82, 22);
             this.btnShow.TabIndex = 3;
             this.btnShow.Text = "Refresh";
             this.btnShow.UseVisualStyleBackColor = false;
@@ -89,14 +90,15 @@ namespace FinalProject
             this.Cost,
             this.DateTime});
             this.dgvOrderList.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvOrderList.Location = new System.Drawing.Point(0, 85);
+            this.dgvOrderList.Location = new System.Drawing.Point(0, 63);
+            this.dgvOrderList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvOrderList.MultiSelect = false;
             this.dgvOrderList.Name = "dgvOrderList";
             this.dgvOrderList.ReadOnly = true;
             this.dgvOrderList.RowHeadersWidth = 51;
             this.dgvOrderList.RowTemplate.Height = 29;
             this.dgvOrderList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvOrderList.Size = new System.Drawing.Size(832, 472);
+            this.dgvOrderList.Size = new System.Drawing.Size(728, 354);
             this.dgvOrderList.TabIndex = 2;
             // 
             // OrderNumber
@@ -157,9 +159,10 @@ namespace FinalProject
             // txtSearch
             // 
             this.txtSearch.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtSearch.Location = new System.Drawing.Point(84, 36);
+            this.txtSearch.Location = new System.Drawing.Point(74, 27);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(279, 27);
+            this.txtSearch.Size = new System.Drawing.Size(245, 23);
             this.txtSearch.TabIndex = 11;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtProductID_TextChanged);
             // 
@@ -175,17 +178,19 @@ namespace FinalProject
             this.panel1.Controls.Add(this.btnShow);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(836, 561);
+            this.panel1.Size = new System.Drawing.Size(732, 421);
             this.panel1.TabIndex = 1;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::FinalProject.Properties.Resources.blue_exit_icon_8;
-            this.pictureBox2.Location = new System.Drawing.Point(775, -2);
+            this.pictureBox2.Location = new System.Drawing.Point(678, -2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(54, 40);
+            this.pictureBox2.Size = new System.Drawing.Size(47, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 33;
             this.pictureBox2.TabStop = false;
@@ -194,9 +199,10 @@ namespace FinalProject
             // pictureBox1
             // 
             this.pictureBox1.Image = global::FinalProject.Properties.Resources.backBtn1;
-            this.pictureBox1.Location = new System.Drawing.Point(690, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(604, -2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(88, 40);
+            this.pictureBox1.Size = new System.Drawing.Size(77, 30);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
@@ -204,16 +210,17 @@ namespace FinalProject
             // 
             // FormACheckPurchaseList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 561);
+            this.ClientSize = new System.Drawing.Size(732, 421);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "FormACheckPurchaseList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormACheckPurchaseList";
+            this.Text = "Details of Transaction";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormInventory_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrderList)).EndInit();
             this.panel1.ResumeLayout(false);

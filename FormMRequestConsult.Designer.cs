@@ -31,6 +31,9 @@ namespace FinalProject
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMRequestConsult));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dtpTo = new System.Windows.Forms.DateTimePicker();
             this.dgvVetList = new System.Windows.Forms.DataGridView();
             this.VetID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.VetName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,9 +45,6 @@ namespace FinalProject
             this.btnConsult = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.dtpTo = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVetList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).BeginInit();
@@ -71,6 +71,39 @@ namespace FinalProject
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(732, 421);
             this.panel2.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(374, 52);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(19, 15);
+            this.label3.TabIndex = 31;
+            this.label3.Text = "to";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(281, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 15);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "Search by Date";
+            // 
+            // dtpTo
+            // 
+            this.dtpTo.CalendarMonthBackground = System.Drawing.SystemColors.GradientActiveCaption;
+            this.dtpTo.CustomFormat = "MM/dd/yyyy";
+            this.dtpTo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpTo.Location = new System.Drawing.Point(399, 46);
+            this.dtpTo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtpTo.Name = "dtpTo";
+            this.dtpTo.Size = new System.Drawing.Size(91, 23);
+            this.dtpTo.TabIndex = 29;
+            this.dtpTo.ValueChanged += new System.EventHandler(this.dtpTo_ValueChanged);
             // 
             // dgvVetList
             // 
@@ -208,39 +241,6 @@ namespace FinalProject
             this.label1.TabIndex = 8;
             this.label1.Text = "Search by name or ID:";
             // 
-            // dtpTo
-            // 
-            this.dtpTo.CalendarMonthBackground = System.Drawing.SystemColors.GradientActiveCaption;
-            this.dtpTo.CustomFormat = "MM/dd/yyyy";
-            this.dtpTo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpTo.Location = new System.Drawing.Point(399, 46);
-            this.dtpTo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dtpTo.Name = "dtpTo";
-            this.dtpTo.Size = new System.Drawing.Size(91, 23);
-            this.dtpTo.TabIndex = 29;
-            this.dtpTo.ValueChanged += new System.EventHandler(this.dtpTo_ValueChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(281, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 15);
-            this.label2.TabIndex = 30;
-            this.label2.Text = "Search by Date";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(374, 52);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 15);
-            this.label3.TabIndex = 31;
-            this.label3.Text = "to";
-            // 
             // FormMRequestConsult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -253,7 +253,7 @@ namespace FinalProject
             this.MaximizeBox = false;
             this.Name = "FormMRequestConsult";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormMRequestConsult";
+            this.Text = "Veterinarian List";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormVetList_FormClosed);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

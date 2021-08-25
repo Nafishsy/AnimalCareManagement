@@ -65,14 +65,15 @@ namespace FinalProject
             this.Password,
             this.Role});
             this.dgvAddUser.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvAddUser.Location = new System.Drawing.Point(0, 198);
+            this.dgvAddUser.Location = new System.Drawing.Point(0, 149);
+            this.dgvAddUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvAddUser.MultiSelect = false;
             this.dgvAddUser.Name = "dgvAddUser";
             this.dgvAddUser.ReadOnly = true;
             this.dgvAddUser.RowHeadersWidth = 51;
             this.dgvAddUser.RowTemplate.Height = 29;
             this.dgvAddUser.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvAddUser.Size = new System.Drawing.Size(836, 363);
+            this.dgvAddUser.Size = new System.Drawing.Size(732, 272);
             this.dgvAddUser.TabIndex = 0;
             this.dgvAddUser.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAddUser_CellDoubleClick);
             // 
@@ -110,9 +111,10 @@ namespace FinalProject
             this.btnShow.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnShow.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnShow.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnShow.Location = new System.Drawing.Point(730, 163);
+            this.btnShow.Location = new System.Drawing.Point(639, 122);
+            this.btnShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(94, 29);
+            this.btnShow.Size = new System.Drawing.Size(82, 22);
             this.btnShow.TabIndex = 3;
             this.btnShow.Text = "Refresh";
             this.btnShow.UseVisualStyleBackColor = false;
@@ -123,9 +125,10 @@ namespace FinalProject
             this.btnAdd.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAdd.Location = new System.Drawing.Point(285, 30);
+            this.btnAdd.Location = new System.Drawing.Point(249, 22);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(94, 47);
+            this.btnAdd.Size = new System.Drawing.Size(82, 35);
             this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -136,9 +139,10 @@ namespace FinalProject
             this.btnRemove.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnRemove.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRemove.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRemove.Location = new System.Drawing.Point(285, 83);
+            this.btnRemove.Location = new System.Drawing.Point(249, 62);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(94, 45);
+            this.btnRemove.Size = new System.Drawing.Size(82, 34);
             this.btnRemove.TabIndex = 5;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = false;
@@ -147,26 +151,28 @@ namespace FinalProject
             // txtUserID
             // 
             this.txtUserID.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtUserID.Location = new System.Drawing.Point(98, 30);
+            this.txtUserID.Location = new System.Drawing.Point(86, 22);
+            this.txtUserID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUserID.Name = "txtUserID";
-            this.txtUserID.Size = new System.Drawing.Size(125, 27);
+            this.txtUserID.Size = new System.Drawing.Size(110, 23);
             this.txtUserID.TabIndex = 6;
             // 
             // txtPassword
             // 
             this.txtPassword.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtPassword.Location = new System.Drawing.Point(98, 67);
+            this.txtPassword.Location = new System.Drawing.Point(86, 50);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(125, 27);
+            this.txtPassword.Size = new System.Drawing.Size(110, 23);
             this.txtPassword.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 33);
+            this.label1.Location = new System.Drawing.Point(10, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 20);
+            this.label1.Size = new System.Drawing.Size(52, 15);
             this.label1.TabIndex = 9;
             this.label1.Text = "User ID:";
             // 
@@ -174,9 +180,9 @@ namespace FinalProject
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(12, 70);
+            this.label2.Location = new System.Drawing.Point(10, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 20);
+            this.label2.Size = new System.Drawing.Size(62, 15);
             this.label2.TabIndex = 10;
             this.label2.Text = "Password:";
             // 
@@ -184,9 +190,9 @@ namespace FinalProject
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(12, 103);
+            this.label3.Location = new System.Drawing.Point(10, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 20);
+            this.label3.Size = new System.Drawing.Size(35, 15);
             this.label3.TabIndex = 11;
             this.label3.Text = "Role:";
             // 
@@ -194,18 +200,19 @@ namespace FinalProject
             // 
             this.lblVetName.AutoSize = true;
             this.lblVetName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblVetName.Location = new System.Drawing.Point(12, 163);
+            this.lblVetName.Location = new System.Drawing.Point(10, 122);
             this.lblVetName.Name = "lblVetName";
-            this.lblVetName.Size = new System.Drawing.Size(190, 20);
+            this.lblVetName.Size = new System.Drawing.Size(152, 15);
             this.lblVetName.TabIndex = 14;
             this.lblVetName.Text = "Search by Role or User ID:";
             // 
             // txtSearch
             // 
             this.txtSearch.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtSearch.Location = new System.Drawing.Point(205, 160);
+            this.txtSearch.Location = new System.Drawing.Point(179, 120);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(125, 27);
+            this.txtSearch.Size = new System.Drawing.Size(110, 23);
             this.txtSearch.TabIndex = 13;
             this.txtSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
@@ -219,18 +226,20 @@ namespace FinalProject
             "member",
             "vet",
             "shop"});
-            this.cbRole.Location = new System.Drawing.Point(98, 100);
+            this.cbRole.Location = new System.Drawing.Point(86, 75);
+            this.cbRole.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbRole.Name = "cbRole";
-            this.cbRole.Size = new System.Drawing.Size(125, 28);
+            this.cbRole.Size = new System.Drawing.Size(110, 23);
             this.cbRole.TabIndex = 15;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::FinalProject.Properties.Resources.blue_exit_icon_8;
-            this.pictureBox2.Location = new System.Drawing.Point(770, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(674, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(54, 40);
+            this.pictureBox2.Size = new System.Drawing.Size(47, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 31;
             this.pictureBox2.TabStop = false;
@@ -239,9 +248,10 @@ namespace FinalProject
             // pictureBox1
             // 
             this.pictureBox1.Image = global::FinalProject.Properties.Resources.backBtn1;
-            this.pictureBox1.Location = new System.Drawing.Point(685, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(599, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(88, 40);
+            this.pictureBox1.Size = new System.Drawing.Size(77, 30);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
@@ -250,19 +260,19 @@ namespace FinalProject
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(12, 2);
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 6.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(10, 2);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(320, 15);
+            this.label4.Size = new System.Drawing.Size(244, 12);
             this.label4.TabIndex = 32;
             this.label4.Text = "*the first character of a role is the first character the user id";
             // 
             // FormAManipulateUsers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(836, 561);
+            this.ClientSize = new System.Drawing.Size(732, 421);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dgvAddUser);
             this.Controls.Add(this.pictureBox2);
@@ -280,10 +290,11 @@ namespace FinalProject
             this.Controls.Add(this.btnShow);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "FormAManipulateUsers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormAManipulateUsers";
+            this.Text = "Role Control";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormAddUser_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAddUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

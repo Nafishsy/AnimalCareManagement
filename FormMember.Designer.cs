@@ -49,17 +49,19 @@ namespace FinalProject
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(516, 277);
+            this.panel1.Size = new System.Drawing.Size(452, 208);
             this.panel1.TabIndex = 2;
             // 
             // pictureBoxLogout
             // 
             this.pictureBoxLogout.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxLogout.Image = global::FinalProject.Properties.Resources.blue_exit_icon_8;
-            this.pictureBoxLogout.Location = new System.Drawing.Point(459, 0);
+            this.pictureBoxLogout.Location = new System.Drawing.Point(402, 0);
+            this.pictureBoxLogout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxLogout.Name = "pictureBoxLogout";
-            this.pictureBoxLogout.Size = new System.Drawing.Size(54, 40);
+            this.pictureBoxLogout.Size = new System.Drawing.Size(47, 30);
             this.pictureBoxLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxLogout.TabIndex = 31;
             this.pictureBoxLogout.TabStop = false;
@@ -72,9 +74,10 @@ namespace FinalProject
             this.panel2.Controls.Add(this.rbPurchase);
             this.panel2.Controls.Add(this.rbConsult);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(94, 28);
+            this.panel2.Location = new System.Drawing.Point(82, 21);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(323, 183);
+            this.panel2.Size = new System.Drawing.Size(283, 137);
             this.panel2.TabIndex = 2;
             // 
             // btnConfirm
@@ -82,9 +85,10 @@ namespace FinalProject
             this.btnConfirm.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnConfirm.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnConfirm.Location = new System.Drawing.Point(112, 136);
+            this.btnConfirm.Location = new System.Drawing.Point(98, 102);
+            this.btnConfirm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(94, 29);
+            this.btnConfirm.Size = new System.Drawing.Size(82, 22);
             this.btnConfirm.TabIndex = 3;
             this.btnConfirm.Text = "Confirm";
             this.btnConfirm.UseVisualStyleBackColor = false;
@@ -95,9 +99,10 @@ namespace FinalProject
             this.rbPurchase.AutoSize = true;
             this.rbPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbPurchase.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.rbPurchase.Location = new System.Drawing.Point(86, 92);
+            this.rbPurchase.Location = new System.Drawing.Point(75, 69);
+            this.rbPurchase.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbPurchase.Name = "rbPurchase";
-            this.rbPurchase.Size = new System.Drawing.Size(136, 24);
+            this.rbPurchase.Size = new System.Drawing.Size(108, 19);
             this.rbPurchase.TabIndex = 2;
             this.rbPurchase.TabStop = true;
             this.rbPurchase.Text = "Purchase foods";
@@ -108,9 +113,10 @@ namespace FinalProject
             this.rbConsult.AutoSize = true;
             this.rbConsult.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbConsult.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.rbConsult.Location = new System.Drawing.Point(86, 62);
+            this.rbConsult.Location = new System.Drawing.Point(75, 46);
+            this.rbConsult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbConsult.Name = "rbConsult";
-            this.rbConsult.Size = new System.Drawing.Size(150, 24);
+            this.rbConsult.Size = new System.Drawing.Size(120, 19);
             this.rbConsult.TabIndex = 1;
             this.rbConsult.TabStop = true;
             this.rbConsult.Text = "Consult with vets";
@@ -119,24 +125,25 @@ namespace FinalProject
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 39);
+            this.label1.Location = new System.Drawing.Point(10, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 20);
+            this.label1.Size = new System.Drawing.Size(91, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Select any one:";
             // 
             // FormMember
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(516, 277);
+            this.ClientSize = new System.Drawing.Size(452, 208);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "FormMember";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormMember";
+            this.Text = "Member";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMember_FormClosed);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogout)).EndInit();

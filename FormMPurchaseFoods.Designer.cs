@@ -61,8 +61,9 @@ namespace FinalProject
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(836, 561);
+            this.panel1.Size = new System.Drawing.Size(732, 421);
             this.panel1.TabIndex = 4;
             // 
             // dgvFoodList
@@ -79,14 +80,15 @@ namespace FinalProject
             this.ProductPrice,
             this.ProductQuantity});
             this.dgvFoodList.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvFoodList.Location = new System.Drawing.Point(0, 201);
+            this.dgvFoodList.Location = new System.Drawing.Point(0, 151);
+            this.dgvFoodList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvFoodList.MultiSelect = false;
             this.dgvFoodList.Name = "dgvFoodList";
             this.dgvFoodList.ReadOnly = true;
             this.dgvFoodList.RowHeadersWidth = 51;
             this.dgvFoodList.RowTemplate.Height = 29;
             this.dgvFoodList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFoodList.Size = new System.Drawing.Size(836, 360);
+            this.dgvFoodList.Size = new System.Drawing.Size(732, 270);
             this.dgvFoodList.TabIndex = 0;
             this.dgvFoodList.DoubleClick += new System.EventHandler(this.dgvFoodList_DoubleClick);
             // 
@@ -139,18 +141,20 @@ namespace FinalProject
             this.panel3.Controls.Add(this.txtSearch);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.btnShowList);
-            this.panel3.Location = new System.Drawing.Point(0, -7);
+            this.panel3.Location = new System.Drawing.Point(0, -5);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(836, 214);
+            this.panel3.Size = new System.Drawing.Size(732, 160);
             this.panel3.TabIndex = 5;
             // 
             // pictureBoxLogout
             // 
             this.pictureBoxLogout.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxLogout.Image = global::FinalProject.Properties.Resources.blue_exit_icon_8;
-            this.pictureBoxLogout.Location = new System.Drawing.Point(779, 7);
+            this.pictureBoxLogout.Location = new System.Drawing.Point(682, 5);
+            this.pictureBoxLogout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxLogout.Name = "pictureBoxLogout";
-            this.pictureBoxLogout.Size = new System.Drawing.Size(54, 40);
+            this.pictureBoxLogout.Size = new System.Drawing.Size(47, 30);
             this.pictureBoxLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxLogout.TabIndex = 29;
             this.pictureBoxLogout.TabStop = false;
@@ -159,9 +163,10 @@ namespace FinalProject
             // pictureBoxBack
             // 
             this.pictureBoxBack.Image = global::FinalProject.Properties.Resources.backBtn1;
-            this.pictureBoxBack.Location = new System.Drawing.Point(694, 7);
+            this.pictureBoxBack.Location = new System.Drawing.Point(607, 5);
+            this.pictureBoxBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxBack.Name = "pictureBoxBack";
-            this.pictureBoxBack.Size = new System.Drawing.Size(88, 40);
+            this.pictureBoxBack.Size = new System.Drawing.Size(77, 30);
             this.pictureBoxBack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxBack.TabIndex = 28;
             this.pictureBoxBack.TabStop = false;
@@ -172,9 +177,10 @@ namespace FinalProject
             this.btnPurchase.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPurchase.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnPurchase.Location = new System.Drawing.Point(534, 166);
+            this.btnPurchase.Location = new System.Drawing.Point(467, 124);
+            this.btnPurchase.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPurchase.Name = "btnPurchase";
-            this.btnPurchase.Size = new System.Drawing.Size(128, 36);
+            this.btnPurchase.Size = new System.Drawing.Size(112, 27);
             this.btnPurchase.TabIndex = 12;
             this.btnPurchase.Text = "Purchase";
             this.btnPurchase.UseVisualStyleBackColor = false;
@@ -184,9 +190,9 @@ namespace FinalProject
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(18, 113);
+            this.label3.Location = new System.Drawing.Point(16, 85);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 20);
+            this.label3.Size = new System.Drawing.Size(58, 15);
             this.label3.TabIndex = 11;
             this.label3.Text = "Quantity:";
             // 
@@ -194,34 +200,37 @@ namespace FinalProject
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(18, 52);
+            this.label2.Location = new System.Drawing.Point(16, 39);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 20);
+            this.label2.Size = new System.Drawing.Size(88, 15);
             this.label2.TabIndex = 10;
             this.label2.Text = "Product name:";
             // 
             // txtQuantity
             // 
             this.txtQuantity.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtQuantity.Location = new System.Drawing.Point(142, 113);
+            this.txtQuantity.Location = new System.Drawing.Point(124, 85);
+            this.txtQuantity.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(171, 27);
+            this.txtQuantity.Size = new System.Drawing.Size(150, 23);
             this.txtQuantity.TabIndex = 9;
             // 
             // txtProductName
             // 
             this.txtProductName.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtProductName.Location = new System.Drawing.Point(142, 49);
+            this.txtProductName.Location = new System.Drawing.Point(124, 37);
+            this.txtProductName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtProductName.Name = "txtProductName";
-            this.txtProductName.Size = new System.Drawing.Size(171, 27);
+            this.txtProductName.Size = new System.Drawing.Size(150, 23);
             this.txtProductName.TabIndex = 8;
             // 
             // txtSearch
             // 
             this.txtSearch.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtSearch.Location = new System.Drawing.Point(141, 175);
+            this.txtSearch.Location = new System.Drawing.Point(123, 131);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(172, 27);
+            this.txtSearch.Size = new System.Drawing.Size(151, 23);
             this.txtSearch.TabIndex = 7;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
@@ -229,9 +238,9 @@ namespace FinalProject
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 178);
+            this.label1.Location = new System.Drawing.Point(10, 134);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 20);
+            this.label1.Size = new System.Drawing.Size(98, 15);
             this.label1.TabIndex = 6;
             this.label1.Text = "Search by name:";
             // 
@@ -240,9 +249,10 @@ namespace FinalProject
             this.btnShowList.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnShowList.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnShowList.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnShowList.Location = new System.Drawing.Point(694, 166);
+            this.btnShowList.Location = new System.Drawing.Point(607, 124);
+            this.btnShowList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShowList.Name = "btnShowList";
-            this.btnShowList.Size = new System.Drawing.Size(128, 36);
+            this.btnShowList.Size = new System.Drawing.Size(112, 27);
             this.btnShowList.TabIndex = 5;
             this.btnShowList.Text = "Refresh";
             this.btnShowList.UseVisualStyleBackColor = false;
@@ -250,16 +260,17 @@ namespace FinalProject
             // 
             // FormMPurchaseFoods
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 561);
+            this.ClientSize = new System.Drawing.Size(732, 421);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "FormMPurchaseFoods";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormMPurchaseFoods";
+            this.Text = "Purchase From Shop";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormFoodList_FormClosed);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvFoodList)).EndInit();

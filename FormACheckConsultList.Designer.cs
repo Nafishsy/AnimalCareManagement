@@ -308,7 +308,7 @@ namespace FinalProject
             this.MaximizeBox = false;
             this.Name = "FormACheckConsultList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormACheckConsultList";
+            this.Text = "Consultations Details";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormHistory_FormClosed);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvList)).EndInit();

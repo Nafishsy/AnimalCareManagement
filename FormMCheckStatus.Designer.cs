@@ -224,7 +224,7 @@ namespace FinalProject
             this.MaximizeBox = false;
             this.Name = "FormMCheckStatus";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormMCheckStatus";
+            this.Text = "Consultations List";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMCheckStatus_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

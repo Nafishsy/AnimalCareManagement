@@ -77,8 +77,9 @@ namespace FinalProject
             this.panel1.Controls.Add(this.btnShow);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(836, 561);
+            this.panel1.Size = new System.Drawing.Size(732, 421);
             this.panel1.TabIndex = 0;
             // 
             // dgvInventory
@@ -93,14 +94,15 @@ namespace FinalProject
             this.ProductPrice,
             this.ProductQuantity});
             this.dgvInventory.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvInventory.Location = new System.Drawing.Point(0, 210);
+            this.dgvInventory.Location = new System.Drawing.Point(0, 158);
+            this.dgvInventory.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvInventory.MultiSelect = false;
             this.dgvInventory.Name = "dgvInventory";
             this.dgvInventory.ReadOnly = true;
             this.dgvInventory.RowHeadersWidth = 51;
             this.dgvInventory.RowTemplate.Height = 29;
             this.dgvInventory.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvInventory.Size = new System.Drawing.Size(836, 351);
+            this.dgvInventory.Size = new System.Drawing.Size(732, 263);
             this.dgvInventory.TabIndex = 2;
             this.dgvInventory.DoubleClick += new System.EventHandler(this.dgvInventory_DoubleClick);
             // 
@@ -144,9 +146,10 @@ namespace FinalProject
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::FinalProject.Properties.Resources.blue_exit_icon_8;
-            this.pictureBox2.Location = new System.Drawing.Point(781, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(683, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(52, 46);
+            this.pictureBox2.Size = new System.Drawing.Size(46, 34);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 30;
             this.pictureBox2.TabStop = false;
@@ -157,9 +160,10 @@ namespace FinalProject
             this.btnClear.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClear.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnClear.Location = new System.Drawing.Point(297, 98);
+            this.btnClear.Location = new System.Drawing.Point(260, 74);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(94, 29);
+            this.btnClear.Size = new System.Drawing.Size(82, 22);
             this.btnClear.TabIndex = 20;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -170,9 +174,10 @@ namespace FinalProject
             this.btnSave.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSave.Location = new System.Drawing.Point(297, 25);
+            this.btnSave.Location = new System.Drawing.Point(260, 19);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(94, 29);
+            this.btnSave.Size = new System.Drawing.Size(82, 22);
             this.btnSave.TabIndex = 19;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -183,9 +188,10 @@ namespace FinalProject
             this.btnRemove.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnRemove.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRemove.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRemove.Location = new System.Drawing.Point(297, 63);
+            this.btnRemove.Location = new System.Drawing.Point(260, 47);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(94, 29);
+            this.btnRemove.Size = new System.Drawing.Size(82, 22);
             this.btnRemove.TabIndex = 18;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = false;
@@ -194,54 +200,57 @@ namespace FinalProject
             // txtProductQuantity
             // 
             this.txtProductQuantity.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtProductQuantity.Location = new System.Drawing.Point(134, 111);
+            this.txtProductQuantity.Location = new System.Drawing.Point(117, 83);
+            this.txtProductQuantity.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtProductQuantity.Name = "txtProductQuantity";
-            this.txtProductQuantity.Size = new System.Drawing.Size(125, 27);
+            this.txtProductQuantity.Size = new System.Drawing.Size(110, 23);
             this.txtProductQuantity.TabIndex = 17;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(13, 114);
+            this.label5.Location = new System.Drawing.Point(11, 86);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 20);
+            this.label5.Size = new System.Drawing.Size(58, 15);
             this.label5.TabIndex = 16;
             this.label5.Text = "Quantity:";
             // 
             // txtProductPrice
             // 
             this.txtProductPrice.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtProductPrice.Location = new System.Drawing.Point(134, 78);
+            this.txtProductPrice.Location = new System.Drawing.Point(117, 58);
+            this.txtProductPrice.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtProductPrice.Name = "txtProductPrice";
-            this.txtProductPrice.Size = new System.Drawing.Size(125, 27);
+            this.txtProductPrice.Size = new System.Drawing.Size(110, 23);
             this.txtProductPrice.TabIndex = 15;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(13, 81);
+            this.label4.Location = new System.Drawing.Point(11, 61);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 20);
+            this.label4.Size = new System.Drawing.Size(38, 15);
             this.label4.TabIndex = 14;
             this.label4.Text = "Price:";
             // 
             // txtProductName
             // 
             this.txtProductName.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtProductName.Location = new System.Drawing.Point(134, 45);
+            this.txtProductName.Location = new System.Drawing.Point(117, 34);
+            this.txtProductName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtProductName.Name = "txtProductName";
-            this.txtProductName.Size = new System.Drawing.Size(125, 27);
+            this.txtProductName.Size = new System.Drawing.Size(110, 23);
             this.txtProductName.TabIndex = 13;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(13, 48);
+            this.label3.Location = new System.Drawing.Point(11, 36);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 20);
+            this.label3.Size = new System.Drawing.Size(90, 15);
             this.label3.TabIndex = 12;
             this.label3.Text = "Product Name:";
             // 
@@ -249,28 +258,30 @@ namespace FinalProject
             // 
             this.txtProductID.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.txtProductID.Enabled = false;
-            this.txtProductID.Location = new System.Drawing.Point(134, 12);
+            this.txtProductID.Location = new System.Drawing.Point(117, 9);
+            this.txtProductID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtProductID.Name = "txtProductID";
             this.txtProductID.ReadOnly = true;
-            this.txtProductID.Size = new System.Drawing.Size(125, 27);
+            this.txtProductID.Size = new System.Drawing.Size(110, 23);
             this.txtProductID.TabIndex = 11;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(13, 15);
+            this.label2.Location = new System.Drawing.Point(11, 11);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 20);
+            this.label2.Size = new System.Drawing.Size(70, 15);
             this.label2.TabIndex = 10;
             this.label2.Text = "Product ID:";
             // 
             // txtSearch
             // 
             this.txtSearch.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtSearch.Location = new System.Drawing.Point(134, 177);
+            this.txtSearch.Location = new System.Drawing.Point(117, 133);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(125, 27);
+            this.txtSearch.Size = new System.Drawing.Size(110, 23);
             this.txtSearch.TabIndex = 9;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
@@ -278,9 +289,9 @@ namespace FinalProject
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(13, 177);
+            this.label1.Location = new System.Drawing.Point(11, 133);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 20);
+            this.label1.Size = new System.Drawing.Size(98, 15);
             this.label1.TabIndex = 8;
             this.label1.Text = "Search by name:";
             // 
@@ -289,9 +300,10 @@ namespace FinalProject
             this.btnShow.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnShow.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnShow.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnShow.Location = new System.Drawing.Point(730, 174);
+            this.btnShow.Location = new System.Drawing.Point(639, 130);
+            this.btnShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(94, 29);
+            this.btnShow.Size = new System.Drawing.Size(82, 22);
             this.btnShow.TabIndex = 3;
             this.btnShow.Text = "Refresh";
             this.btnShow.UseVisualStyleBackColor = false;
@@ -299,16 +311,17 @@ namespace FinalProject
             // 
             // FormShopOwner
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 561);
+            this.ClientSize = new System.Drawing.Size(732, 421);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "FormShopOwner";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormShopOwner";
+            this.Text = "Shop Management";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormInventory_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
